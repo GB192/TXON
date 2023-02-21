@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+
+<head>
+  <link rel="stylesheet" href="calci.css">
+  
+  <title>CALCULATOR</title>
+</head>
+
+<body bgcolor="blanchedalmond">
+  <script src="calci.js" > </script>
+  <div style="text-align: center;
+    font-style:normal;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blanchedalmond;
+    background-color:gray;
+    text-decoration: underline;">
+    <h1>Calculator</h1>
+  </div>
+  <div id="container">
+    <div id="display" name="disp" >0</div>
+
+    <div id="numbers">
+      <div class="number" id="1" onclick="insert(7)"><b>7</b></div>
+      <div class="number" id="2" onclick="insert(8)"><b>8</b></div>
+      <div class="number" id="3" onclick="insert(9)"><b>9</b></div>
+      <div class="number" id="+" onclick="insert('*')"><b>*</b></div>
+      <div class="number" id="4" onclick="insert(4)"><b>4</b></div>
+      <div class="number" id="5" onclick="insert(5)"><b>5</b></div>
+      <div class="number" id="6" onclick="insert(6)"><b>6</b></div>
+      <div class="number" id="-" onclick="insert('/')"><b>/</b></div>
+      <div class="number" id="7" onclick="insert(1)"><b>1</b></div>
+      <div class="number" id="8" onclick="insert(2)"><b>2</b></div>
+      <div class="number" id="9" onclick="insert(3)"><b>3</b></div>
+      <div class="number" id="*" onclick="insert('+')"><b>+</b></div>
+      <div class="number" id="=" onclick="Clear()"><b>C</b></div>
+      <div class="number" id="0" onclick="insert(0)"><b>0</b></div>
+      <div class="number" id="c" onclick="equal()"><b>=</b></div>
+      <div class="number" id="/" onclick="insert('-')"><b>-</b></div>
+
+    </div>
+    <br>
+    <span class="number" id="b" onclick="backspace()"><b>Back</b></span>
+  </div>
+
+</body>
+<script>
+ 
+</script>
+
+</html>
