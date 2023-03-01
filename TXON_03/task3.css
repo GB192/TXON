@@ -1,0 +1,76 @@
+body{
+    display: grid;
+    justify-content: center;
+    background:lightcoral;
+}
+
+#box{
+    border: 8px solid mediumpurple;
+    width: 500px;
+    display: grid;
+    justify-content: center;
+    background-color:darkkhaki;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:aquamarine;
+}
+h2{
+    justify-content: center;
+    display: flex;
+}
+#container3{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px 10px;
+}
+.btn{
+    background-color:aquamarine;
+    margin: 10px;
+    width: 100px;
+    height: 25px;
+    color:aquamarine;
+    border-radius: 100px;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 0px 10px;
+}
+#container3 input{
+    width: 300px;
+    border: 5px solid mediumvioletred;
+    border-radius: 50px;
+    font-size: 20px;
+    color:brown;
+}
+
+#edit,#addbtn{
+    background-color:indianred;
+}
+table{
+    background-color:cadetblue;
+}
+td{
+    border:1px solid;
+    font-size: 18px;
+}
+
+#editbtn,#delebtn{
+    text-decoration: none;
+    border: 2px;
+    color:blanchedalmond;
+    background-color:indianred;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#editbtn{
+    color:blanchedalmond;
+}
+
+#delebtn:hover{
+    color:darkgray;
+}
+#editbtn:hover{
+    color:darkgrey;
+}
